@@ -1,0 +1,25 @@
+body {
+    font-size: 16px;
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 65px;
+    color: orange; 
+    font-family: sans-serif;           
+    line-height: 10%;
+}
+
+.bgColorClass {
+    background-color: rgb(100, 99, 98);
+}
+
+p {
+    font-weight: 600;
+    font-size: 48px;
+}
+
+ul {
+    list-style: none;
+}
