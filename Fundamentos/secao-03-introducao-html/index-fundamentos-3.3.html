@@ -4,25 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio | Tiago Dantas</title>
+    <title>Exercícios | Tiago Dantas</title>
     <link rel="stylesheet" href="style3.3.css">
 </head>
 <body>
         
-  <div id="a" class="caixa width-and-height" style="background: #036b52">A</div>
-  <div id="b" class="caixa width-and-height padding" style="background: #41197f;">B</div>
-  <div id="c" class="caixa width-and-height padding margin" style="background: #444955">C</div>
-  <div id="d" class="caixa width-and-height padding margin border" style="background: #3898EC">D</div>
+  <div class="Exercicio-Cores">
+      <div id="a" class="caixa width-and-height" style="background: #036b52">A</div>
+      <div id="b" class="caixa width-and-height padding" style="background: #41197f;">B</div>
+      <div id="c" class="caixa width-and-height padding margin" style="background: #444955">C</div>
+      <div id="d" class="caixa width-and-height padding margin border" style="background: #3898EC">D</div>
+  </div>
 
+  <div class="Exercicio-Mario">
+      <h1 id="titleMario">Exercício do Mario</h1>
+      <img src="IMGS/del-mario.png" alt="jumpMario" class="super-mario" />
+      <img src="IMGS/del-goomba.png" alt="goomba" class="goomba" />
+      <img src="IMGS/del-bowser.png" alt="bowser" class="bowser" />
+      <p class="speach">
+        Goomba,<br>do something!
+      </p>
+      <img src="IMGS/del-baloon.png" alt="baloon" class="baloon" />
+  </div>
 
-
-  <h1>Exercício do Mario</h1>
-  <img src="IMGS/del-mario.png" alt="jumpMario" class="super-mario" />
-  <img src="IMGS/del-goomba.png" alt="goomba" class="goomba" />
-  <img src="IMGS/del-bowser.png" alt="bowser" class="bowser" />
-  <p class="speach">
-    Goomba,<br>do something!
-  </p>
-  <img src="data:image/png;base64,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" alt="baloon" class="baloon" />
+  <div class="fundamentos-3">      
+      <h1><em>Combinações e Classes Descendentes</em></h1>
+        <br />
+        <h3>Top 5 frases memoráveis:</h3>
+        <ol>
+          <li><em>Com grandes poderes vêm grandes responsabilidades.</em> - Tio Ben (Homem Aranha)</li>
+          <li><em>Houston, temos um problema.</em> - Jack Swigert</li>
+          <li><em>Sempre parece impossível até que esteja feito.</em> - Nelson Mandela</li>
+          <li><em>Parte da jornada é o fim.</em> - Tony Stark (Homem de Ferro)</li>
+          <li><em>Às vezes, o melhor que podemos fazer é começar novamente.</em> - Steve Rogers (Capitão América)</li>
+        </ol>
+        <h3>As maiores linguagens de programação:</h3>
+        <ul class="langs">
+          <li>Python</li>
+          <li><span class="langsColors">Java</span></li>
+          <li><span class="langsColors">Java</span>Script</li>
+          <li>C#</li>
+          <li>C / C++</li>
+        </ul>
+        <h3>Maiores aliados de uma pessoa desenvolvedora:</h3>
+        <ul class="linksUteis">
+          <li>
+            <a href="https://pt.stackoverflow.com/" target="_blank">StackOverflow</a>
+          </li>
+          <li>
+            <a href="https://www.w3schools.com/" target="_blank">W3Schools</a>
+          </li>
+          <li>
+            <a href="https://developer.mozilla.org/pt-BR/" target="_blank">MDN Web Docs</a>
+          </li>
+          <li>
+            <a href="https://devdocs.io/" target="_blank">DevDocs</a>
+          </li>
+          <li>
+            <a href="https://app.betrybe.com/" target="_blank">Trybe</a>
+          </li>
+        </ul>
+  </div>
 </body>
 </html>
