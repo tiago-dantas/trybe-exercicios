@@ -1,0 +1,131 @@
+.caixa {
+    color: white;
+    display: inline-block;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: top;
+  }
+  
+  .width-and-height {
+    height: 50px;
+    width: 50px;
+  }
+  
+  /* insira na classe abaixo um padding de 20px para aplicá-lo aos itens B, C e D */
+  .padding, #b, #c, #d {
+    padding: 20px;
+  }
+  
+  /* insira na classe abaixo uma margem de 30px para aplicá-la aos itens C e D */
+  .margin, #c, #d {
+    margin: 30px;
+  }
+  
+  /* insira na classe abaixo uma borda com valor '5px solid black' para aplicá-la ao item D */
+  .border {
+    border: solid 5px black;
+  }
+
+  .super-mario {
+    width: 180px;
+    position:absolute;
+    z-index: 1;
+  }
+  
+  .goomba {
+    width: 100px;
+    position:absolute;    
+    z-index: 2;
+    margin-top: 165px;
+    left: 130px;
+    transform: rotateY(180deg);
+  }
+  
+  .baloon {
+    position: relative;
+    float: right;
+    transform: rotateY();
+    transform: rotate(-150deg);
+    left: 180px;
+    margin-top: 100px;    
+  
+  }
+  
+  .speach {
+    position: relative;
+    float: right;
+    font-size: 25px;
+    z-index: 3;
+    left: -20px;
+    margin-top: 180px;
+    
+  }
+  
+  .bowser {
+    width: 400px;
+    float: right;
+    padding-bottom: 5px;
+    border-bottom: 1px solid gray;
+  }
+
+  .Exercicio-Mario {
+    border-bottom: 1px solid gray;
+  }
+  /* FIM DO EXERCICIO DO MARIO */
+
+  /* COMEÇO DO EXERCIO FIXAÇÃO */
+
+.fundamentos-3 {
+    top: 500px;
+    margin-top: 480px;    
+}
+
+ol li:nth-child(even){
+    background: rgb(199, 192, 192);
+    color: rgb(21, 77, 21);   
+}
+
+ol li:nth-child(odd){
+    background: rgb(231, 231, 231);
+    text-transform: uppercase;    
+}
+
+h1, h2, h3 {
+    color: rgb(158, 6, 6);
+}
+
+h1, h2, h3.em {
+    font-size: 40px;
+    border: 1px solid rgb(29, 27, 27);
+    text-align: center;
+}
+
+ul li, ol li {
+    font-size: 20px;    
+}
+
+ul li em, ol li em {
+    font-weight: bold;
+}
+
+.langs li:not(:nth-child(n + 4)){
+    color: blueviolet;
+}
+
+.langsColors {
+    background-color: pink;
+}
+
+a:hover {
+    font-weight: bold;
+    color: rgb(158, 6, 6);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(20, 6, 6);
+}
+
+.linksUteis li {
+    list-style: none;    
+}
