@@ -116,13 +116,14 @@ h3 {
 
 .m1 {    
     display: inline-block;    
-    margin-left: 5px;
-    border: solid 5px white;
-    vertical-align: center;
+    margin: 0 0 0 5px;
+    border: solid 5px white;    
 }
 
 #mSoco {
     width: 600px;
     position: absolute;
     margin-left: 20px;
+    border: solid 5px #252525;
+    display: inline-block;
 }
