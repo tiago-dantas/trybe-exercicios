@@ -23,3 +23,7 @@ p {
 ul {
     list-style: none;
 }
+
+#teste {
+    border: thickness: 1px, style: solid, color: black;
+};
