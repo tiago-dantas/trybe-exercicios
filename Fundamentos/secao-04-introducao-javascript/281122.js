@@ -92,3 +92,30 @@ if (produto >= 1 && venda >= 1) {
 } else {
     console.log("Erro, valores devem ser maiores que 1");
 };
+
+/* oitava parte */
+
+let groceryList = ["Arroz", 'Feijão', 'Alface', 'Melancia'];
+
+for (let index = 0; index < groceryList.length; index += 1) {
+    console.log(groceryList[index]);
+};
+
+/* nona parte */
+
+let names = ['João', 'Maria', 'Antônio', 'Margarida'];
+
+for (let casamata of names) {
+    console.log(casamata);
+}
+
+/* décima parte */
+
+for(let sapex = 0; sapex <= 20; sapex+=1 ){
+    console.log(sapex);
+  }
+  
+/* décima primeira parte */
+
+for(let index11 = 0; index11 < 10; index11+=1 ){
+    console.log('Oie');}
