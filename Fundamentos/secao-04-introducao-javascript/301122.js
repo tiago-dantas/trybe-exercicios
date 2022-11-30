@@ -79,11 +79,80 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 //   console.log(false);
 // }
 
-const final = 100;
-let resultado = 0;
+// const final = 100;
+// let resultado = 0;
 
-for (let index = 0; index <= final; index += 1) {
-  resultado += index
-}
+// for (let index = 0; index <= final; index += 1) {
+//   resultado += index
+// }
 
-console.log(resultado);
+// console.log(resultado);
+
+// let fat = 1;
+// for (let indexfat = 10; indexfat > 0; indexfat -= 1) {
+//   fat *= indexfat;
+// }
+
+// console.log(fat);
+
+// let word = 'tryber';
+// let reverseWord = '';
+
+// for (let index = 0; index < word.length; index += 1) {
+//   reverseWord += word[word.length - 1 - index];
+// }
+
+// console.log(reverseWord);
+
+// let array = ['java', 'javascript', 'python', 'html', 'css'];
+
+// let biggestWord = array[0];
+// let smallestWord = array[0];
+
+// for (let index = 0; index < array.length; index += 1) {
+//   if (array[index].length > biggestWord.length) {
+//     biggestWord = array[index];
+//   }
+// }
+
+// for (let index = 0; index < array.length; index += 1) {
+//   if (array[index].length < smallestWord.length) {
+//     smallestWord = array[index];
+//   }
+// }
+
+// console.log(biggestWord);
+// console.log(smallestWord);
+
+// let biggestPrimeNumber = 0;
+
+// for (let currentNumber = 2; currentNumber <= 50; currentNumber += 1) {
+//   let isPrime = true;
+//   for (let currentDivisor = 2; currentDivisor < currentNumber; currentDivisor += 1) {
+//     if (currentNumber % currentDivisor === 0) {
+//       isPrime = false;
+//     }
+//   }
+//   if (isPrime) {
+//     biggestPrimeNumber = currentNumber;
+//   }
+// }
+
+// console.log(biggestPrimeNumber);
+
+
+// let maiorPrimo = 0;
+
+// for (let numero = 2; numero <= 50; numero += 1) {
+//   let primo = true;
+//   for (let divisor = 2; divisor < numero; divisor += 1) {
+//     if (numero % divisor === 0) {
+//       primo = false;
+//     }        
+//   }
+//   if (primo) {
+//     maiorPrimo = numero;
+//   }
+// }
+
+// console.log(maiorPrimo);
