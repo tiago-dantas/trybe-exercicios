@@ -82,8 +82,17 @@
 
 // maiorNumero(a, b, c);
 
-function sum(a, b) {
-    return a + b;
-  }
-  console.log(sum(1, 2));
+// function sum(a, b) {
+//     return a + b;
+//   }
+//   console.log(sum(1, 2));
   
+if (true) {
+    // inicio do escopo do if
+    var userAge = '20'; // COM VAR ELE FUNCIONA FORA DO ESCOPO. COM LET OU CONST NÃO.
+    console.log(userAge); // 20
+    // fim do escopo do if
+  }
+  console.log(userAge); // 20
+
+
