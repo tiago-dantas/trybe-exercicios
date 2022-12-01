@@ -156,3 +156,15 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 // }
 
 // console.log(maiorPrimo);
+
+let car = {
+  type: 'Fiat',
+  model: '500',
+  color: 'Yellow',
+  fuel: 'gas',
+  price: 'R$ 50.000',
+  options: ['Camera', 'VidroElétrico', 2, true],
+  infos: [0,1,2,3,4,5],
+}
+
+console.log(car.options[3]);
