@@ -101,5 +101,16 @@
     nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
   };
 
-  console.log(`Bem-vinda, ${info.personagem}`);
+  // console.log(`Bem-vinda, ${info.personagem}`);
 
+  info.recorrente = "Sim";
+
+  // console.log(info);
+
+  // for (let keys in info ) {
+  //   console.log(keys);
+  // }
+
+  for (let value in info) {
+    console.log(info[value]);
+  }
