@@ -111,6 +111,29 @@
   //   console.log(keys);
   // }
 
-  for (let value in info) {
-    console.log(info[value]);
+  // for (let value in info) {
+  //   console.log(info[value]);
+  // }
+
+  let info2 = {
+    personagem: "Tio Patinhas",
+    origem: "Christmas on Bear Mountain, Dell's Four Color Comics #178",
+    nota: "O último MacPatinhas",
+    recorrente: "Sim",    
   }
+
+  // for (let keysz in info2) {};
+
+  for (let properties in info) {
+    if (
+      properties === 'recorrente' &&
+      info[properties] === 'Sim' &&
+      info2[properties] === 'Sim'
+    ) {
+      console.log('Ambos recorrentes');
+    } else {
+      console.log(info[properties] + ' e ' + info2[properties]);
+    }
+  }
+
+  
