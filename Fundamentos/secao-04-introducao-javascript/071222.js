@@ -69,3 +69,42 @@ const speedCar = (speed) => (
   speed >= 120 ? `Você ultrapassou o limite de velocidade`: `Você está na velocidade permitida`
   );
 console.log(speedCar(speed));
+
+// ============================================ //
+
+let motor = true;
+
+const ligarDesligar = () => (
+    motor === true ? `O motor está ligado` : `O motor está desligado`    
+    )
+    console.log(ligarDesligar(motor));
+
+// 🚀 Crie uma função que calcule a área de um círculo.
+
+// Na matemática, a fórmula para calcular a área de um círculo é: área = PI vezes o raio elevado ao quadrado.
+
+// Com base nessa informação:
+
+// Crie a função circleArea, que recebe o valor do raio como parâmetro, utilizando arrow functions;
+    const circleArea = (raio) => {
+        let piValue = 3.14;
+        let area = piValue * raio * raio;
+        return area
+    };
+    
+    console.log(`Essa é a área do círculo: ${circleArea(3)}`);
+
+    // 🚀 Crie uma função que receba uma frase como parâmetro e retorne a maior palavra da frase.
+
+let txtWord = ('Antônio foi no banheiro e não sabemos o que aconteceu') // retorna 'aconteceu'
+
+const longestWord = (text) => {
+    let bWord = 0;
+    for (let t of text) {
+        if (t > bWord) {
+            bWord = t;
+        }
+        return bWord
+    }
+
+}
