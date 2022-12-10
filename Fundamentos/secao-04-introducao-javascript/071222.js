@@ -96,15 +96,6 @@ const ligarDesligar = () => (
 
     // 🚀 Crie uma função que receba uma frase como parâmetro e retorne a maior palavra da frase.
 
-let txtWord = ('Antônio foi no banheiro e não sabemos o que aconteceu') // retorna 'aconteceu'
+const longestWord = text => text.split(' ').sort((wordA, wordB) => wordB.length - wordA.length)[0];
 
-const longestWord = (text) => {
-    let bWord = 0;
-    for (let t of text) {
-        if (t > bWord) {
-            bWord = t;
-        }
-        return bWord
-    }
-
-}
+console.log(longestWord("Antonio foi ao banheiro e não sabemos o que aconteceu"));
